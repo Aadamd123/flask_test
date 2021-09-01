@@ -1,0 +1,18 @@
+<h1>Hello world!</h1>
+
+<p>First webpage, tester</p>
+
+<p>My name is {{ first_name|safe }}</p>
+
+<h3>List:</h3>
+{% for colours in stuff %}
+
+    {% if colours == 31 %}
+        {{ colours + 69}}<br/>
+    {% else %}
+        {{ colours }}<br/>
+    {% endif %}
+    {% endfor %}
+
+<br/><br/>
+{{ stuff.1 }}
